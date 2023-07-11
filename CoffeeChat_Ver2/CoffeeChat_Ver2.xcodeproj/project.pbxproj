@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		216B91B32A5D63CB008E81D2 /* SeolahView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216B91B22A5D63CB008E81D2 /* SeolahView.swift */; };
+		216B91B62A5D63EB008E81D2 /* FriendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216B91B52A5D63EB008E81D2 /* FriendView.swift */; };
+		216B91B82A5D63F8008E81D2 /* MeProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216B91B72A5D63F8008E81D2 /* MeProfileView.swift */; };
+		216B91BA2A5D9155008E81D2 /* Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216B91B92A5D9154008E81D2 /* Protocol.swift */; };
+		216B91BC2A5D9160008E81D2 /* Member.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216B91BB2A5D9160008E81D2 /* Member.swift */; };
+		216B91BE2A5D9169008E81D2 /* MemberStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216B91BD2A5D9169008E81D2 /* MemberStore.swift */; };
 		99DE0F2F2A5D57C300C59B95 /* CoffeeChat_Ver2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99DE0F2E2A5D57C300C59B95 /* CoffeeChat_Ver2App.swift */; };
 		99DE0F312A5D57C300C59B95 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99DE0F302A5D57C300C59B95 /* ContentView.swift */; };
 		99DE0F332A5D57C600C59B95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99DE0F322A5D57C600C59B95 /* Assets.xcassets */; };
@@ -18,6 +24,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		216B91B22A5D63CB008E81D2 /* SeolahView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeolahView.swift; sourceTree = "<group>"; };
+		216B91B52A5D63EB008E81D2 /* FriendView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendView.swift; sourceTree = "<group>"; };
+		216B91B72A5D63F8008E81D2 /* MeProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeProfileView.swift; sourceTree = "<group>"; };
+		216B91B92A5D9154008E81D2 /* Protocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocol.swift; sourceTree = "<group>"; };
+		216B91BB2A5D9160008E81D2 /* Member.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Member.swift; sourceTree = "<group>"; };
+		216B91BD2A5D9169008E81D2 /* MemberStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberStore.swift; sourceTree = "<group>"; };
 		99DE0F2B2A5D57C300C59B95 /* CoffeeChat_Ver2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoffeeChat_Ver2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99DE0F2E2A5D57C300C59B95 /* CoffeeChat_Ver2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeChat_Ver2App.swift; sourceTree = "<group>"; };
 		99DE0F302A5D57C300C59B95 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -40,6 +52,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		216B91AE2A5D6395008E81D2 /* SeolahGroup */ = {
+			isa = PBXGroup;
+			children = (
+				216B91B12A5D63B6008E81D2 /* Protocol */,
+				216B91B02A5D63AF008E81D2 /* Data */,
+				216B91AF2A5D63AA008E81D2 /* View */,
+			);
+			path = SeolahGroup;
+			sourceTree = "<group>";
+		};
+		216B91AF2A5D63AA008E81D2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				216B91B22A5D63CB008E81D2 /* SeolahView.swift */,
+				216B91B52A5D63EB008E81D2 /* FriendView.swift */,
+				216B91B72A5D63F8008E81D2 /* MeProfileView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		216B91B02A5D63AF008E81D2 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				216B91BB2A5D9160008E81D2 /* Member.swift */,
+				216B91BD2A5D9169008E81D2 /* MemberStore.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		216B91B12A5D63B6008E81D2 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				216B91B92A5D9154008E81D2 /* Protocol.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
 		99DE0F222A5D57C300C59B95 = {
 			isa = PBXGroup;
 			children = (
@@ -62,6 +111,7 @@
 				CE935AF82A5D5B900029A594 /* HyoseokGroup */,
 				99DE0F2E2A5D57C300C59B95 /* CoffeeChat_Ver2App.swift */,
 				99DE0F302A5D57C300C59B95 /* ContentView.swift */,
+				216B91AE2A5D6395008E81D2 /* SeolahGroup */,
 				99DE0F322A5D57C600C59B95 /* Assets.xcassets */,
 				99DE0F342A5D57C600C59B95 /* Preview Content */,
 			);
@@ -158,11 +208,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE935B002A5D5CF20029A594 /* MessageView.swift in Sources */,
+				216B91B82A5D63F8008E81D2 /* MeProfileView.swift in Sources */,
 				CE935AFA2A5D5BB50029A594 /* HyoseokView.swift in Sources */,
 				99DE0F312A5D57C300C59B95 /* ContentView.swift in Sources */,
 				99DE0F2F2A5D57C300C59B95 /* CoffeeChat_Ver2App.swift in Sources */,
 				CE935AFE2A5D5CC00029A594 /* MemberView.swift in Sources */,
 				CE935AFC2A5D5C9E0029A594 /* Data.swift in Sources */,
+				216B91B62A5D63EB008E81D2 /* FriendView.swift in Sources */,
+				216B91B32A5D63CB008E81D2 /* SeolahView.swift in Sources */,
+				216B91BE2A5D9169008E81D2 /* MemberStore.swift in Sources */,
+				216B91BA2A5D9155008E81D2 /* Protocol.swift in Sources */,
+				216B91BC2A5D9160008E81D2 /* Member.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
